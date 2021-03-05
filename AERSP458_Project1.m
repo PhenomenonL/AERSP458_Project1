@@ -1,7 +1,7 @@
 % AERSP 458 Project 1
 %% Case1
 clear, clc
-format longEng
+format long
 
 r0 = [-1.7512, 2.0439, -2.6693]; %[LU]
 v0 = [-2.1843, -0.4926, 0.4740]; %[LU/TU]
@@ -30,7 +30,7 @@ energy1 = norm(v1)^2/2 - mu / norm(r1);
 
 h1 = cross(r1,v1);
 
-disp("Case 1: -------------")
+disp("Case 1: -----------------------------------")
 %Part 1: the orbit type
 if e == 0
     disp("Orbit shape is CIRCLE");
@@ -81,7 +81,7 @@ energy1 = norm(v1)^2/2 - mu / norm(r1);
 
 h1 = cross(r1,v1);
 
-disp("Case 1: -------------")
+disp("Case 2: -----------------------------------")
 %Part 1: the orbit type
 if e == 0
     disp("Orbit shape is CIRCLE");
